@@ -2,10 +2,8 @@
 # Python Bootcamp
   
 Project for learning python better  
-    1. Secret - It's a utility to store secret.  
-    2. Test  
+    1. Secret - It's a utility to store secret.  It uses sqlite db in to store plain secrets.  
       
       
     To Do:  
-        1. Add alternate solution of adding secret into text file.  
-        2. Store encrypted secret.
+        1. Store encrypted secret.
