@@ -9,3 +9,7 @@ Project for learning python better
           python3 -m venv .secret
           source .secret/bin/activate
           pip install -r requirements.txt
+  
+
+    To do:
+      Create seperate file for different functions.
