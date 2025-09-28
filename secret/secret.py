@@ -4,8 +4,10 @@ import sqlite3
 from Crypto.Cipher import AES
 from Crypto.Random import get_random_bytes
 
-db_file = "secret.db"
-aes_key_file = "aes.key"
+
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+db_file = os.path.join(BASE_DIR, "secret.db")
+aes_key_file = os.path.join(BASE_DIR, "aes.key")
 
 def checkaeskey():
     if os.path.exists(aes_key_file):
