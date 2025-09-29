@@ -2,3 +2,4 @@
 secret.db
 aes.key
 .DS_Store
+run.sh
