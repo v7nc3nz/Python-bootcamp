@@ -1,3 +1,4 @@
+import getpass
 import os
 import base64
 import sqlite3
@@ -97,7 +98,7 @@ def setkey():
             if option != "1":
                 print("Exiting without changes.")
                 return
-        value = input("Enter Secret Value: ").strip()
+        value = getpass.getpass("Enter Secret Value: ")
         insert_or_update_secret(key_name, value, aeskey)
         print("Secret saved successfully.")
     except Exception as e:
